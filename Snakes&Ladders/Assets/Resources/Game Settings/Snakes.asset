@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84de1f5d4dca1b84286f5cd8ac7a82db, type: 3}
+  m_Name: Snakes
+  m_EditorClassIdentifier: 
+  Board: {fileID: 11400000, guid: f48e3d15a91005746adc44e9ef46c6e5, type: 2}
+  CreationTiles:
+    LowerValue: 9
+    UpperValue: 15
+    MinValue: 0
+    MaxValue: 17
+  tilesToMove:
+    LowerValue: -7
+    UpperValue: -3
+    MinValue: -30
+    MaxValue: 30
+  MaxConnections: 2
+  AccessTextures:
+  - {fileID: 2800000, guid: 846de89bda9370b48866e47f476ae616, type: 3}
+  - {fileID: 2800000, guid: 846de89bda9370b48866e47f476ae616, type: 3}
